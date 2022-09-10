@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
             </tr>
             `;
 
-            const removeBtn = document.createElement('button');
+            /*const removeBtn = document.createElement('button');
             removeBtn.classList.add('btn', 'btn-danger', 'mb-1', 'ml-1');
             removeBtn.innerHTML = '<i class="fa fa-trash"></i>';
             removeBtn.onclick = function (ev) {
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
             row.children[3].appendChild(removeBtn);
             title.value = '';
-            description.value = '';
+            description.value = '';*/
         }
     }
 );
